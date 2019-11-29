@@ -62,6 +62,8 @@
                 <property name="host" value="0.0.0.0"/>
                 <property name="port" value="10800"/>
                 <property name="portRange" value="5"/>
+                <property name="socketSendBufferSize" value="2052065"/>
+                <property name="socketReceiveBufferSize" value="2052065"/>
                 <property name="maxOpenCursorsPerConnection" value="512"/>
                 <property name="threadPoolSize" value="4"/>
             </bean>
