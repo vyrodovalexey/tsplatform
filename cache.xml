@@ -60,7 +60,7 @@
         <property name="clientConnectorConfiguration">
             <bean class="org.apache.ignite.configuration.ClientConnectorConfiguration">
                 <property name="host" value="0.0.0.0"/>
-                <property name="port" value="10900"/>
+                <property name="port" value="10800"/>
                 <property name="portRange" value="5"/>
                 <property name="maxOpenCursorsPerConnection" value="512"/>
                 <property name="socketSendBufferSize" value="65536"/>
